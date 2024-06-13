@@ -1,0 +1,74 @@
+        body {
+            background-image: url('https://img.freepik.com/free-photo/lilac-acrylic-texture-background-wallpaper_53876-104015.jpg'); 
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .button, .generated-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+            margin: 10px;
+        }
+
+        .button:hover {background-color: #242141}
+        .button:active {
+            background-color: #f2a24f;
+            box-shadow: 0 5px #414ba4;
+            transform: translateY(5px);
+        }
+
+        .generated-button {
+            padding: 12px 24px;
+            font-size: 14px;
+            background-color: #007BFF;
+            border-radius: 12px;
+            box-shadow: 0 5px #666;
+        }
+
+        .generated-button:hover {background-color: #0056b3}
+        .generated-button:active {
+            background-color: #0056b3;
+            box-shadow: 0 2px #444;
+            transform: translateY(2px);
+        }
+
+        .ukraine-button {
+            background-color: yellow;
+            color: blue;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        .ukraine-button:hover {background-color: #FFD700}
+        .ukraine-button:active {
+            background-color: #FFD700;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+
+
+.iksweb{display: inline-block;cursor: pointer; font-size:28px;text-decoration:none;padding:32px 57px; color:#ede847;background:#0095ff;border-radius:26px;border:17px solid #3237c7;}
+.iksweb:hover{background:#354251;color:#ffffff;border:17px solid #44a1e3;transition: all 2s ease;}
+
+
+    
